@@ -1,0 +1,11 @@
+[api]
+port = "9000"
+
+[database]
+host = "localhost"
+user = "postgres"
+pass = "1234"
+name = "postgres"
+max_idle_connection = 5
+max_open_connection = 100
+ssl_mode = "disable"
